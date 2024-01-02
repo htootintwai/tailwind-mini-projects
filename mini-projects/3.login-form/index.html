@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwindplay: https://play.tailwindcss.com/Fy3xO1d06w -->
+    
+</head>
+<body>
+    <!-- Container -->
+    <div class="flex justify-center min-h-screen items-center">
+        <!-- Login Card -->
+        <div class="shadow-lg p-5 rounded-xl">
+            <h1 class="text-2xl font-bold mb-5 text-center">Login</h1>
+            <input class="border rounded-lg p-3 w-full mb-5" type="text" placeholder="Enter your email">
+            <input class="border rounded-lg p-3 w-full" type="password" placeholder="Enter your password">
+            <button class="border rounded-lg p-3 w-full bg-red-500 text-white mb-2">Login</button>
+
+            <!-- Other -->
+            <div class="flex justify-between">
+                <span>Forget password</span>
+                <span>Create new account</span>
+            </div>
+
+            <!-- Social Media Button -->
+            <div class="border-b my-5">
+                <div class="flex space-x-3">
+
+                    <!-- Google Button -->
+                    <button class="border rounded-lg p-3 w-full border-red-500 mb-2 flex space-x-3 items-center justify-center">
+                        <img class="w-8" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/225px-Google_%22G%22_logo.svg.png" alt="">
+                        <span>Google</span>
+                    </button>
+
+                    <!-- Github Button -->
+                    <button class="border rounded-lg p-3 w-full border-red-500 mb-2 flex space-x-3 items-center justify-center">
+                        <img class="w-8" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="">
+                        <span>Github</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
