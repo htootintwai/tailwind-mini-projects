@@ -1,1 +1,1 @@
-👨🏻‍💻: https://tailwind-minip-1blog-card.netlify.app/
+1️⃣👨🏻‍💻: https://tailwind-minip-1blog-card.netlify.app/
